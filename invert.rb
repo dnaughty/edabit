@@ -2,9 +2,7 @@
 
 def invert_array(arr)
 
-arr.map! do |ele|
-	(ele - ele) - ele
-end
+		arr.map! { |ele| (ele - ele) - ele }
 
 end
 
